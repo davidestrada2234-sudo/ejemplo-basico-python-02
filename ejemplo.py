@@ -24,7 +24,7 @@ costo_por_minuto = input("Ingrese el costo por minuto: ")
 costo_por_minuto = float(costo_por_minuto)  # Conversión a decimal (float) para permitir valores con decimales
 
 minutos_consumidos = input("Ingrese el número de minutos consumidos en el mes: ")  
-minutos_consumidos = int(minutos_consumidos)  # Conversión a entero (int), ya que son minutos enteros
+minutos_consumidos = float(minutos_consumidos)  # Conversión a entero (int), ya que son minutos enteros
 
 # Cálculo del valor a cancelar
 valor_cancelar = costo_por_minuto * minutos_consumidos  # Se multiplica el costo por los minutos consumidos
